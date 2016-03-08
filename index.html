@@ -3,21 +3,59 @@
   <head>
     <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
     <title>ScriptEd C9 + While Loops - 3/8/16</title>
+    
+    <style>
+      div { padding: 1em; }
+      
+      #bieber-example { background-color: yellow; }
+      #bieber-time { background-color: cornsilk; }
+      #count-up { background-color: lightblue; }
+      #skip { background-color: tan; }
+      #sum { background-color: coral; }
+    </style>
   </head>
 
   <body>
     <h1>ScriptEd C9 + While Loops - 3/8/16</h1>
     <p>Add your JavaScript to the script tag block.</p>
+    
+    <!-- Div used for JQuery append() example -->
+    <div id="bieber-example" class="bieber"></div>
+    
+    <!-- Divs for the exercises -->
+    <div id="bieber-time" class="bieber"></div>
+    <div id="count-up"></div>
+    <div id="skip"></div>
+    <div id="sum"></div>
+    
 
     <script>
-      <!-- 
+      /**
         JavaScript:
+        
+        Use the example "Bieber Example for using the JQuery append function."
+        
+        1. Write a while loop that appends paragraphs with the text "Justin Bieber" 
+           10 times to div with the id "bieber-time".
+           
+        2. Using a while loop, that appends the numbers starting from 
+           77 up to, and including 88 (each wrapped in a paragraph tag) to the div
+           with the id "count-up"
+           
+        3. Using a while loop, append the numbers 1 to 10 except 7 
+           (each wrapped in a paragraph tag) to the div with the id "skip"
+           Hint: use an if statement, remember === and !==
+           
+        4. Using a while loop, add numbers 1 thru 10 (1 + 2 + 3 + 4 ... + 10). 
+           Append the sum (wrapped in a paragraph tag) to the div with the id "sum"
+      */
+      
+      // Bieber Example for using the JQuery append function.
+      $('#bieber-example').append("<p>Justin Bieber</p>");
+      
+      
+      // Your code for exercises below:
 
-        1. Write a while loop that prints "Justin Bieber" 10 times.
-        2. Using a while loop, print to the console starting from 77 up to, and including 88.
-        3. Using a while loop, print to the console 1 to 10 except 7. Hint: use if statements
-        4. Using a while loop, add numbers 1 thru 20 (1 + 2 + 3 + 4 ... + 20). Print the sum to the console.
-      -->
       
     </script>
   </body>
